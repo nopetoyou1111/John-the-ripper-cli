@@ -29,8 +29,9 @@ int main() {
 
 
         }
-        else if(yn == "n" || yn == "N"  || yn == "No"  || yn == "no"  || yn == "NO"  || yn == "Nope"  || yn == "NOPE" || yn == "nope"){
-            system("[!]NEVER GONNA SAY GOODBYE (:");
+        else if(yn == "n" || yn == "N"  |
+                | yn == "No"  || yn == "no"  || yn == "NO"  || yn == "Nope"  || yn == "NOPE" || yn == "nope"){
+            std::cout << "[!]NEVER GONNA SAY GOODBYE (:";
             return 0;
         }
     }
